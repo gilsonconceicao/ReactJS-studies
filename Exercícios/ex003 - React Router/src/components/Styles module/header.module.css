@@ -1,0 +1,37 @@
+@charset "UTF-8"; 
+
+.menu {
+    background-color: #242424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.menu h2 {
+    color: white;
+}
+
+.menu ul {
+    
+    display: flex;
+    list-style-type: none;
+}
+
+.item {
+    color: #ffffffbe;
+    margin: auto 10px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    transition: all .8s;
+}
+
+.item:hover {
+    color: white;
+}
+
+.item:focus {
+    color: white;
+    border-bottom: 1px solid white;
+}

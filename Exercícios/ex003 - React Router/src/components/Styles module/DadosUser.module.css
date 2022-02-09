@@ -1,0 +1,64 @@
+@charset "UTF-8";  
+
+/* layount da pagina */
+
+section {
+    background-color: rgb(238, 238, 238);
+    max-width: 900px;
+    margin: 18vh auto;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 8px rgba(47, 47, 47, 0.459);
+}
+
+.leyautHome {
+    
+    display: grid;
+    grid-template-columns: 600px auto;
+    align-items: center;
+}
+
+/*  arttigo home  */
+
+.leyautHome h1 {
+    font-size: 2.3em;
+    margin-bottom: 20px;
+}
+
+.leyautHome p {
+    color: #000000c2;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+/* btn mais curso */
+
+.maiscurso {
+    background-color: #6002db; 
+    color: white;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 10px;
+    transition: all .5s;
+}
+
+.maiscurso:hover {
+    transform: translateX(0.5em);
+    box-shadow: 3px 7px 6px rgba(36, 35, 35, 0.616);
+}
+
+/* mensagem de sucesso */
+
+.msgsucesso {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    padding: 4px;
+    border-radius: 4px;
+
+}
