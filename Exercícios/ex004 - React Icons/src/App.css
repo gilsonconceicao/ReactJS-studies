@@ -1,0 +1,85 @@
+
+/* Estilo - Teste primeira vez com CSS no React */ 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;500&family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #040d21; 
+}
+
+/*  input nome */
+.inputName {
+    background-color: white;
+    border: none;
+    display: block;
+    max-width: 200px;
+    box-shadow: -10px 6px 6px rgba(204, 204, 204, 0.109);
+    margin: 0 auto;
+    padding: 4px;
+}
+
+/* estilo da section   */
+section {
+    background-image: linear-gradient(to left, #040d21, #042b68) ;
+    color: white;
+    border: 5px outset #042b68;
+    border-radius: 20px;
+    padding: 40px;
+    width: 700px;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section h2 {
+    text-align: center;
+}
+
+section ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+section li {
+    margin: 4vh 0;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 45px;
+    transition: all .5s;
+}
+
+/* element Link and class item*/
+.item {
+    color: white;
+    transition: all .2s;
+}
+/* cores hover tech*/
+
+.item:hover {
+    color: #fbfb00da; 
+    font-size: 80px;
+}
+
+.php:hover > .item {
+    color: #0044d6;
+    font-size: 80px;
+}
+
+.java:hover > .item {
+    color: #da0000;
+    font-size: 80px;
+}
+
+.sql:hover > .item {
+    color: #0abaff;
+    font-size: 80px;
+}
