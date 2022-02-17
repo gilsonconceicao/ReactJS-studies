@@ -1,0 +1,3 @@
+
+ - Exercício onde prático o uso de import e export, criação de componentes, o useState e state e eventos
+em react.
